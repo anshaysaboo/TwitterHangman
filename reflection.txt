@@ -1,0 +1,7 @@
+We learned how to write code in JavaScript, how to use React for front end web development, and how to use APIs to connect to and pull data from services on the internet.
+
+We enjoyed learning about how to code in React and the flexibility and functionality of APIs in pulling data from different resources on the internet.
+
+One major challenge we ran into was complying with the Twitter API security guidelines. Generating an API token was a long process, and we found that we were unable to make requests to the API directly from the browser. To work around this, we had to figure out how to set up a web server to make the requests, and then make requests to this server from the React application.
+
+Websites that were particularly helpful were the React JS documentation websites, as well as Stack Overflow for helping with bugs and errors that popped up. Also, the Express JS documentation and Twitter API documentation provided helpful insight into the different technologies we were using to build this application.

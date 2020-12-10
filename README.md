@@ -1,5 +1,9 @@
 # Trending on Twitter Hangman
 
+## Demo
+
+You can try out Twitter Hangman online here: [https://twitterhangman.herokuapp.com/](https://twitterhangman.herokuapp.com/). Please allow up to one minute for the website to load as it is currently running on a Heroku free Dyno, which is put to sleep during periods of inactivity.
+
 ## User Guide
 
 ### Setup Guide
@@ -27,3 +31,7 @@ Finally, once the token is in place, you are able to run the application. Do thi
 ### Game Instructions
 
 Twitter Hangman is a normal game of Hangman, where the player must guess a word or phrase by guessing letters that are a part of that word/phrase. The player is allowed five incorrect letter guesses until they lose the game. In order to guess letters, you may enter a letter into the “Guess a letter” input. As you guess, the puzzle and hangman will update. When you have finished the game, either by completing the entire puzzle or running out of guesses, you will be brought to the ending screen, where you will see the solution to the puzzle, as well as some Tweets that are a part of the Trend that you just solved.
+
+### Video
+
+Check out a short overview video about our project at [https://youtu.be/6BZBVaFHxFw](https://youtu.be/6BZBVaFHxFw).
