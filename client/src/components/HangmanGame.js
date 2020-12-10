@@ -98,10 +98,10 @@ class HangmanGame extends Component {
     const { lives, guessedLetters } = this.state;
     return (
       <div>
-        <Row>
+        <Row justify="space-around" align="middle">
           <Col md={12}>
             <Title level={1} style={{ textAlign: "left" }}>
-              Guess the Trending Twitter topic.
+              Find the Trending Twitter topic.
             </Title>
             <GuessInput
               guessedLetters={guessedLetters}
