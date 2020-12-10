@@ -54,13 +54,12 @@ class HangmanGame extends Component {
       lives -= 1;
     }
 
+    this.checkGameOver(lives, template);
     this.setState({ guessedLetters, template, lives });
-    this.checkGameOver();
   }
 
   // Checks if the game has finished, either the user won or lost. Is called after every guess is made
-  checkGameOver() {
-    const { lives, template } = this.state;
+  checkGameOver(lives, template) {
     // Check if the user has run out of guesses, resulting in a loss
     if (lives === 0) {
       this.props.onFinish(false);

@@ -13,6 +13,8 @@ class App extends React.Component {
     didWin: false,
   };
 
+  topic = {};
+
   constructor(props) {
     super(props);
     this.handleGameFinish = this.handleGameFinish.bind(this);
@@ -27,6 +29,7 @@ class App extends React.Component {
     try {
       const topic = await getRandomTopic();
       this.setState({ topicName: topic.name });
+      this.topic = topic;
     } catch (err) {
       console.error(err);
     }
@@ -50,7 +53,7 @@ class App extends React.Component {
     } else {
       return (
         <EndScreen
-          solution={topicName}
+          topic={this.topic}
           didWin={didWin}
           onReplayClicked={this.handleReplayClicked}
         />
