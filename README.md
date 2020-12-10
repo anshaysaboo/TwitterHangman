@@ -20,7 +20,7 @@ cd ..
 
 Once you have installed the necessary dependencies, you must generate a API token for the Twitter API. In order to obtain an access token, you must gain access to the Twitter Developer Portal. You may register and access the portal on the [Twitter Developer Homepage](https://developer.twitter.com/en/apply-for-access). Once you have access to the portal, you must generate an Access Token by following the steps under “Generating access tokens” on the [Twitter Developer API documentation](https://developer.twitter.com/ja/docs/basics/authentication/guides/access-tokens).
 
-Upon generating and saving the API Token, you must open the file `config/dev.js`, and replace `INSERT_ACCESS_TOKEN_HERE` with the API Token you have just generated.
+Upon generating and saving the API Token, you must open the file `config/dev.js`. Remove the comment markings (`/* */`) and replace `INSERT_ACCESS_TOKEN_HERE` with the API Token you have just generated. Ensure that there are still quotation marks `""` around the API token.
 
 Finally, once the token is in place, you are able to run the application. Do this by running the command `npm run dev` in the root directory.
 
